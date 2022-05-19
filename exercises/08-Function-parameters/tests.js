@@ -24,7 +24,6 @@ it("The function 'renderPerson' should return the expected output. Tesing with K
 it("Print the function 'renderPerson' in console to see the result" , function () {
     require("./app.js");
     expect(console.log.mock.calls.length).toBe(1)
-    expect(console.log).toHaveBeenCalledWith("Bob is a 23 years old male born in 05/22/1983 with green eyes");
 });
 
 
